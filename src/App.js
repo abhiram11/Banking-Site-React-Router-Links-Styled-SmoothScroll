@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import { BrowserRouter as Router } from "react-router-dom";
+
+//00:17:45 media query
+//00:20:00 using BOTH react SCROLL and REACT ROUTER for navigation
+//00:26:00 IMPLEMENTING ROUTER on App.js for the first time...
+//00:31:00 TRANSFORM TRANSLATE usage!
+// 00:35:30 Link on NAV when CLICKED => &.active {} in its style
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      {/* Hi */}
+      <Navbar />
+    </Router>
   );
 }
 
