@@ -13,6 +13,9 @@ import Home from "./pages";
 // 01:04:00 styling of sidebar, display grid massive customizations!!!
 // 01:07:00 introduction to PAGES!
 // 01:09:30 using useStates for the MenuIcon ,isOpen
+// 1:16:30 How to write video component : <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
+// 01:20:00 video part continued again... styled.video``
+// 01:26:00 NEW TYPE KA one-liner in jsx !!
 
 function App() {
   return (
