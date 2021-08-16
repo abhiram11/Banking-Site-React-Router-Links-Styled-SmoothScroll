@@ -7,6 +7,7 @@ import {
   homeObjTwo,
 } from "../components/InfoSections/Data";
 import Navbar from "../components/Navbar";
+import Services from "../components/Services";
 import Sidebar from "../components/Sidebar";
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
       {/* pass data that we created in Data.js */}
       <InfoSection {...homeObjOne} />
       <InfoSection {...homeObjTwo} />
+      <Services />
       <InfoSection {...homeObjThree} />
     </>
   );

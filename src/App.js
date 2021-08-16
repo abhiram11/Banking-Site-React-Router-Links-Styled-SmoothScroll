@@ -29,6 +29,7 @@ import Home from "./pages";
 //2:08:40 using     img: require('../../images/svg-1.svg') in styled components to get imgs from given path
 //2:17:00 revise
 // 2:23:00 col1 col2 explanation for infocontainer
+// 2:38:30 3 columns using   grid-template-columns: 1fr 1fr 1fr; in ServicesElements.js
 
 function App() {
   return (
