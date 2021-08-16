@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Video from "../../videos/video.mp4";
-import { Button } from "../ButtonElement";
+import { Button } from "../ButtonElements";
 import {
   ArrowForward,
   ArrowRight,
@@ -36,6 +36,7 @@ const HeroSection = () => {
             to="signup"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
+            // not working properly yet
             primary="true"
             dark="true"
           >
