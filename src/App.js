@@ -32,6 +32,7 @@ import SigninPage from "./pages/signin";
 // 2:23:00 col1 col2 explanation for infocontainer
 // 2:38:30 3 columns using   grid-template-columns: 1fr 1fr 1fr; in ServicesElements.js
 //2:48:00 starting with signin page AND react router!!!!!!!
+//2:57:00 working on FOOTER
 
 function App() {
   return (
