@@ -1,8 +1,9 @@
 import "./App.css";
 // import Navbar from "./components/Navbar";
-import { BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 // import Sidebar from "./components/Sidebar";
 import Home from "./pages";
+import SigninPage from "./pages/signin";
 
 //00:17:45 media query
 //00:20:00 using BOTH react SCROLL and REACT ROUTER for navigation
@@ -30,15 +31,20 @@ import Home from "./pages";
 //2:17:00 revise
 // 2:23:00 col1 col2 explanation for infocontainer
 // 2:38:30 3 columns using   grid-template-columns: 1fr 1fr 1fr; in ServicesElements.js
+//2:48:00 starting with signin page AND react router!!!!!!!
 
 function App() {
   return (
     <Router>
+      {/* if we want Navbar everywhere just put it above this switch case and remove it from / or {Home} */}
+
       {/* Hi */}
       {/* <Sidebar />
       <Navbar /> */}
-
-      <Home />
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/signin" component={SigninPage} exact />
+      </Switch>
     </Router>
   );
 }
