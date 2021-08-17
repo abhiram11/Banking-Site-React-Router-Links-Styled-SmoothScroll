@@ -79,8 +79,8 @@ const Footer = () => {
               Dolla
             </SocialLogo>
             <WebsiteRights>
-              Dolla (copyright logo) (2021) or coded :{new Date().getFullYear()}{" "}
-              All Rights Reserved.
+              Dolla© {new Date().getFullYear()} All Rights Reserved. (Made for
+              learning purposes only by Abhiram.)
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="/" target="_blank" aria-label="Facebook">
