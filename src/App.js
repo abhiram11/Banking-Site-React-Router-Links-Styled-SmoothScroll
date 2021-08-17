@@ -33,6 +33,7 @@ import SigninPage from "./pages/signin";
 // 2:38:30 3 columns using   grid-template-columns: 1fr 1fr 1fr; in ServicesElements.js
 //2:48:00 starting with signin page AND react router!!!!!!!
 //2:57:00 working on FOOTER
+// 3:28:00 using SCROLLS, importance of SPY={}, and others like smooth={true}, duration={500ms}, etc
 
 function App() {
   return (
